@@ -477,7 +477,7 @@ const Index = () => {
               className="bg-white text-red-600 hover:bg-gray-100"
               onClick={() =>
                 window.open(
-                  "https://browser.yandex.ru/download?partner_id=831050&banerid=1313163880",
+                  "https://redirect.appmetrica.yandex.com/serve/389430554958814120?clid=13163881",
                   "_blank",
                 )
               }
