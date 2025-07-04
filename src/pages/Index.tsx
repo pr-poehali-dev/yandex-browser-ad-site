@@ -475,6 +475,12 @@ const Index = () => {
             <Button
               size="lg"
               className="bg-white text-red-600 hover:bg-gray-100"
+              onClick={() =>
+                window.open(
+                  "https://browser.yandex.ru/download?partner_id=831050&banerid=1313163880",
+                  "_blank",
+                )
+              }
             >
               <Icon name="Download" className="w-5 h-5 mr-2" />
               Скачать для Windows
