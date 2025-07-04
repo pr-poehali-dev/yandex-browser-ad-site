@@ -72,9 +72,10 @@ const Index = () => {
                 интернета
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Обновленный турбо-режим ускоряет загрузку страниц даже при
-                медленном интернете. Полная интеграция с экосистемой Яндекса и
-                оптимизация для российских сайтов.
+                Умная строка с нейро-поиском находит информацию мгновенно.
+                Обновленный турбо-режим ускоряет загрузку в 3 раза. Полная
+                интеграция с экосистемой Яндекса и оптимизация для российских
+                сайтов.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -165,14 +166,89 @@ const Index = () => {
             <Card className="border-gray-200 hover:shadow-lg transition">
               <CardHeader className="pb-3">
                 <div className="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
-                  <Icon name="Search" className="w-6 h-6 text-orange-600" />
+                  <Icon name="Brain" className="w-6 h-6 text-orange-600" />
                 </div>
-                <CardTitle className="text-lg">Умная строка</CardTitle>
+                <CardTitle className="text-lg">Нейро-поиск</CardTitle>
                 <CardDescription>
-                  Поиск в интернете, закладках, истории и документах
+                  ИИ находит нужную информацию за секунды. Умная строка понимает
+                  контекст и естественный язык
                 </CardDescription>
               </CardHeader>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Search Section */}
+      <section className="py-20 bg-gradient-to-br from-orange-50 to-red-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <Badge className="mb-4 bg-orange-100 text-orange-800 border-orange-200">
+                Нейро-технологии
+              </Badge>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                Поиск нового поколения
+              </h2>
+              <p className="text-xl text-gray-600 mb-8">
+                Умная строка с искусственным интеллектом понимает ваши запросы
+                на естественном языке. Находит точную информацию за секунды,
+                анализирует контекст и предлагает релевантные результаты.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon name="Brain" className="w-4 h-4 text-orange-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">
+                      Понимание контекста
+                    </h3>
+                    <p className="text-gray-600">
+                      ИИ анализирует ваш запрос и находит именно то, что вы
+                      искали
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon name="Zap" className="w-4 h-4 text-orange-600" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">
+                      Мгновенные результаты
+                    </h3>
+                    <p className="text-gray-600">
+                      Получайте ответы за считанные секунды благодаря
+                      нейро-алгоритмам
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Icon
+                      name="MessageCircle"
+                      className="w-4 h-4 text-orange-600"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900">
+                      Естественный язык
+                    </h3>
+                    <p className="text-gray-600">
+                      Задавайте вопросы так, как говорите в обычной жизни
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white rounded-2xl shadow-xl p-8">
+              <img
+                src="/img/6267eb7d-43bb-4265-8681-97d558ccd577.jpg"
+                alt="Нейро-поиск в действии"
+                className="w-full h-80 object-cover rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </section>
