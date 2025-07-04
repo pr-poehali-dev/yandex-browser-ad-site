@@ -569,6 +569,7 @@ const Index = () => {
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
             <p>&copy; 2025 Яндекс. Все права защищены.</p>
+            <p className="mt-2 text-xs">qdtzuuq33y2b9b97</p>
           </div>
         </div>
       </footer>
